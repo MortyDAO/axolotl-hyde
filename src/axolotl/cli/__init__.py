@@ -250,7 +250,7 @@ def do_inference_gradio(
             generation_config = GenerationConfig(
                 repetition_penalty=1.1,
                 max_new_tokens=1024,
-                temperature=0.0,
+                temperature=0.05,
                 top_p=0.95,
                 top_k=40,
                 bos_token_id=tokenizer.bos_token_id,
